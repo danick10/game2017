@@ -1321,10 +1321,26 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a6551ef5d4f77c34090fe6f7ce6fdfa4, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &827420191 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 150226, guid: 1b29d32d999179f4f975e4b6980a5da2, type: 2}
+  m_PrefabInternal: {fileID: 1070954855}
 --- !u!4 &827420192 stripped
 Transform:
   m_PrefabParentObject: {fileID: 496468, guid: 1b29d32d999179f4f975e4b6980a5da2, type: 2}
   m_PrefabInternal: {fileID: 1070954855}
+--- !u!64 &827420196
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 827420191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_Mesh: {fileID: 4300000, guid: 0f250070d8b121543aa891d7936b67b6, type: 3}
 --- !u!1001 &877149818
 Prefab:
   m_ObjectHideFlags: 0
@@ -2590,8 +2606,8 @@ GameObject:
   - 136: {fileID: 1788718735}
   - 23: {fileID: 1788718734}
   - 114: {fileID: 1788718739}
-  - 54: {fileID: 1788718738}
   - 114: {fileID: 1788718740}
+  - 54: {fileID: 1788718738}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -2665,7 +2681,7 @@ Rigidbody:
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
-  m_AngularDrag: 1e+06
+  m_AngularDrag: 1e+14
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
